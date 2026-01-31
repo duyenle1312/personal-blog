@@ -1,6 +1,6 @@
 {
-  "commit": "8b981f84c1aafddb2f6c31671ac948fa82deca2d",
-  "generated": "2026-01-31T21:14:41.382Z",
+  "commit": "51d7f8a6a33ae50b1df4f944fa1fa591a7ac49dc",
+  "generated": "2026-01-31T21:14:44.555Z",
   "metadata": [
     {
       "__outstatic": {
@@ -20,8 +20,8 @@
     },
     {
       "__outstatic": {
-        "commit": "8b981f84c1aafddb2f6c31671ac948fa82deca2d",
-        "hash": "3971795195",
+        "commit": "51d7f8a6a33ae50b1df4f944fa1fa591a7ac49dc",
+        "hash": "3845617761",
         "path": "outstatic/content/posts/hi-new-post.mdx"
       },
       "author": {
@@ -31,7 +31,7 @@
       "collection": "posts",
       "publishedAt": "2026-01-31T21:26:29.619Z",
       "slug": "hi-new-post",
-      "status": "draft",
+      "status": "published",
       "title": "Hi new post"
     }
   ]
