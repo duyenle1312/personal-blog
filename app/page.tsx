@@ -42,7 +42,7 @@ export default async function Index() {
 }
 
 async function getData() {
-  const db = await load();
+  // const db = await load();
 
   const home = getSingletonBySlug("home", ["title", "content", "description"]);
 
@@ -50,6 +50,7 @@ async function getData() {
   console.log("home", home);
   console.log("content", content);
   
+  const db = await load();
   const allPosts = await db
     .find({ collection: "posts" }, [
       "title",
