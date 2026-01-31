@@ -14,18 +14,17 @@ export default async function Post({
 
   return (
     <>
-      {" "}
-      <div className="max-w-6xl mx-auto px-5">
+      <div className="max-w-6xl mx-auto px-5 py-12">
         <article className="mb-32">
-          <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
-            {/* {<Image
+          {/* <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
+            {<Image
               alt={post.title}
               src={post?.coverImage || ''}
               fill
               className="object-cover object-center"
               priority
-            />} */}
-          </div>
+            />} 
+          </div>*/}
 
           <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
             {post.title}

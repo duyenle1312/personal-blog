@@ -1,7 +1,7 @@
 // import Layout from '@/components/Layout'
-import { getSingletonBySlug, load } from 'outstatic/server'
-import ContentGrid from '@/components/ContentGrid'
-import markdownToHtml from '@/lib/markdownToHtml'
+import { getSingletonBySlug, load } from "outstatic/server";
+import ContentGrid from "@/components/ContentGrid";
+import markdownToHtml from "@/lib/markdownToHtml";
 
 export async function generateMetadata() {
   // const home = getSingletonBySlug('home', [
@@ -11,13 +11,13 @@ export async function generateMetadata() {
   // ])
 
   return {
-    title: 'Duyen Le - Micro Blog',
-    description: 'Welcome to my personal blog',
-  }
+    title: "Duyen Le - Micro Blog",
+    description: "Welcome to my personal blog",
+  };
 }
 
 export default async function Index() {
-  const { content, allPosts } = await getData()
+  const { content, allPosts } = await getData();
 
   return (
     <>
@@ -36,44 +36,41 @@ export default async function Index() {
             priority
           />
         )}
-        
       </div>
     </>
-  )
+  );
 }
 
 async function getData() {
-  const db = await load()
+  const db = await load();
 
-  const home = getSingletonBySlug('home', [
-    'title',
-    'content',
-    'description'
-  ])
+  const home = getSingletonBySlug("home", ["title", "content", "description"]);
 
-  const content = await markdownToHtml(home?.content || '')
-
+  const content = await markdownToHtml(home?.content || "");
+  console.log("home", home);
+  console.log("content", content);
+  
   const allPosts = await db
-    .find({ collection: 'posts' }, [
-      'title',
-      'publishedAt',
-      'slug',
+    .find({ collection: "posts" }, [
+      "title",
+      "publishedAt",
+      "slug",
       // 'coverImage',
       // 'description',
       // 'tags'
     ])
     .sort({ publishedAt: -1 })
-    .toArray()
+    .toArray();
 
   return {
     content,
     allPosts,
-  }
+  };
 }
 
 // import markdownToHtml from '@/lib/markdownToHtml'
 // import { getSingletonBySlug } from 'outstatic/server'
- 
+
 // export default async function HomePage() {
 //   const home = await getData()
 //   return (
@@ -83,7 +80,7 @@ async function getData() {
 //     </main>
 //   )
 // }
- 
+
 // async function getData() {
 //   const home = getSingletonBySlug('home', [
 //     'title',
@@ -94,6 +91,6 @@ async function getData() {
 //   const content = await markdownToHtml(home?.content || '')
 
 //   console.log('home', home)
- 
+
 //   return { ...home, content }
 // }

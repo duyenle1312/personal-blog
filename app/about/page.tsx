@@ -6,7 +6,7 @@ import { getSingletonBySlug } from 'outstatic/server'
 export default async function HomePage() {
   const home = await getData()
   return (
-    <main>
+    <main className='p-12'>
       <h1 className='text-black'>{home?.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: home?.content || '' }} />
     </main>
