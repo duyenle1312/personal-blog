@@ -12,7 +12,7 @@ export default async function Index() {
     posts.map(async (post) => ({
       ...post,
       content: await markdownToHtml(post?.content || ""),
-    }))
+    })),
   );
 
   return (
@@ -27,7 +27,6 @@ export default async function Index() {
       ))}
     </div>
   );
-
 }
 
 async function getData() {

@@ -2,6 +2,8 @@ import DateFormatter from "@/components/DateFormatter";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { getDocumentBySlug } from "outstatic/server";
 
+export const dynamic = "force-static";
+
 export default async function Post({
   params,
 }: {
