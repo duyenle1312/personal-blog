@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "title": "Home",
+    "slug": "home",
+    "directory": "outstatic/content/_singletons",
+    "path": "outstatic/content/_singletons/home.md",
+    "publishedAt": "2026-01-31T21:23:02.982Z",
+    "status": "draft"
+  }
+]

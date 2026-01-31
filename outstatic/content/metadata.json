@@ -1,0 +1,22 @@
+{
+  "commit": "",
+  "generated": "2026-01-31T21:11:34.300Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "429324420",
+        "path": "outstatic/content/_singletons/home.md"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "_singletons",
+      "publishedAt": "2026-01-31T21:23:02.982Z",
+      "slug": "home",
+      "status": "draft",
+      "title": "Home"
+    }
+  ]
+}
