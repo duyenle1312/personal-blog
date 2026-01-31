@@ -1,11 +1,11 @@
 {
-  "commit": "f3959346d9943bbc260f7a6dee6447bb31534e1e",
-  "generated": "2026-01-31T21:11:52.385Z",
+  "commit": "15fb19e7629035a05a22e928ec46ccf1c827ebcd",
+  "generated": "2026-01-31T21:11:56.162Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "f3959346d9943bbc260f7a6dee6447bb31534e1e",
-        "hash": "429324420",
+        "commit": "15fb19e7629035a05a22e928ec46ccf1c827ebcd",
+        "hash": "4031461624",
         "path": "outstatic/content/_singletons/home.md"
       },
       "author": {
@@ -15,7 +15,7 @@
       "collection": "_singletons",
       "publishedAt": "2026-01-31T21:23:02.982Z",
       "slug": "home",
-      "status": "draft",
+      "status": "published",
       "title": "Home"
     }
   ]
