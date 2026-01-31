@@ -1,23 +1,7 @@
 {
-  "commit": "e1b5c2f014af96c3f23794f28dee1a5c05f43954",
-  "generated": "2026-01-31T22:44:15.663Z",
+  "commit": "dfad1f104c13e71a65eb4de220cd21b5a0e3bba7",
+  "generated": "2026-01-31T22:46:12.730Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "15fb19e7629035a05a22e928ec46ccf1c827ebcd",
-        "hash": "4031461624",
-        "path": "outstatic/content/_singletons/home.md"
-      },
-      "author": {
-        "name": "Duyen Le",
-        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
-      },
-      "collection": "_singletons",
-      "publishedAt": "2026-01-31T21:23:02.982Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
     {
       "__outstatic": {
         "commit": "e1b5c2f014af96c3f23794f28dee1a5c05f43954",
@@ -33,6 +17,22 @@
       "slug": "hi-new-post",
       "status": "published",
       "title": "Hi new post"
+    },
+    {
+      "__outstatic": {
+        "commit": "dfad1f104c13e71a65eb4de220cd21b5a0e3bba7",
+        "hash": "4031461624",
+        "path": "outstatic/content/_singletons/home.md"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "_singletons",
+      "publishedAt": "2026-01-31T21:23:02.982Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
