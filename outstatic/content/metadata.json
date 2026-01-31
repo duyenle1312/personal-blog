@@ -1,6 +1,6 @@
 {
-  "commit": "15fb19e7629035a05a22e928ec46ccf1c827ebcd",
-  "generated": "2026-01-31T21:11:56.162Z",
+  "commit": "8b981f84c1aafddb2f6c31671ac948fa82deca2d",
+  "generated": "2026-01-31T21:14:41.382Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,6 +17,22 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "8b981f84c1aafddb2f6c31671ac948fa82deca2d",
+        "hash": "3971795195",
+        "path": "outstatic/content/posts/hi-new-post.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-01-31T21:26:29.619Z",
+      "slug": "hi-new-post",
+      "status": "draft",
+      "title": "Hi new post"
     }
   ]
 }
