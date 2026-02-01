@@ -1,6 +1,6 @@
 {
-  "commit": "8834a8771a91cb0401a0effd61e397905985a4a4",
-  "generated": "2026-02-01T23:10:45.450Z",
+  "commit": "bfaa135f37242e1320c9013923c8f9fb7e27a249",
+  "generated": "2026-02-01T23:22:36.967Z",
   "metadata": [
     {
       "__outstatic": {
@@ -33,6 +33,22 @@
       "slug": "hi-new-post",
       "status": "published",
       "title": "The problem with Bulgarian people"
+    },
+    {
+      "__outstatic": {
+        "commit": "bfaa135f37242e1320c9013923c8f9fb7e27a249",
+        "hash": "3592864203",
+        "path": "outstatic/content/posts/hi.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-01T23:34:29.357Z",
+      "slug": "hi",
+      "status": "draft",
+      "title": "Hi"
     }
   ]
 }
