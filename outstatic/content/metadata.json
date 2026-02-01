@@ -1,23 +1,7 @@
 {
-  "commit": "dfad1f104c13e71a65eb4de220cd21b5a0e3bba7",
-  "generated": "2026-01-31T22:46:12.730Z",
+  "commit": "b7ac5154a07a4017ac98c89d2e27b0ab817af788",
+  "generated": "2026-02-01T23:07:05.540Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "e1b5c2f014af96c3f23794f28dee1a5c05f43954",
-        "hash": "2894197120",
-        "path": "outstatic/content/posts/hi-new-post.mdx"
-      },
-      "author": {
-        "name": "Duyen Le",
-        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2026-01-31T21:26:29.619Z",
-      "slug": "hi-new-post",
-      "status": "published",
-      "title": "Hi new post"
-    },
     {
       "__outstatic": {
         "commit": "dfad1f104c13e71a65eb4de220cd21b5a0e3bba7",
@@ -33,6 +17,22 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "b7ac5154a07a4017ac98c89d2e27b0ab817af788",
+        "hash": "3975166413",
+        "path": "outstatic/content/posts/hi-new-post.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-01-31T21:26:29.619Z",
+      "slug": "hi-new-post",
+      "status": "published",
+      "title": "The problem with Bulgarian people"
     }
   ]
 }
