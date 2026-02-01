@@ -1,6 +1,6 @@
 {
-  "commit": "33845f83397e9cd12e19269eb8c23e9011e15d79",
-  "generated": "2026-02-01T23:22:44.694Z",
+  "commit": "e375f5c2b0bf44dac0330e313ddba62b8774d6c6",
+  "generated": "2026-02-01T23:23:00.120Z",
   "metadata": [
     {
       "__outstatic": {
@@ -36,8 +36,8 @@
     },
     {
       "__outstatic": {
-        "commit": "33845f83397e9cd12e19269eb8c23e9011e15d79",
-        "hash": "1007118959",
+        "commit": "e375f5c2b0bf44dac0330e313ddba62b8774d6c6",
+        "hash": "325036278",
         "path": "outstatic/content/posts/hi.mdx"
       },
       "author": {
@@ -48,7 +48,7 @@
       "publishedAt": "2026-02-01T23:34:29.357Z",
       "slug": "hi",
       "status": "draft",
-      "title": "Hi"
+      "title": "To work or not to work"
     }
   ]
 }
