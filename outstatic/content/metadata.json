@@ -1,6 +1,6 @@
 {
-  "commit": "116948529412e1d3ef18bee3bafca07b76c8c7e2",
-  "generated": "2026-02-02T09:23:55.322Z",
+  "commit": "7a63aaa12f468d2291b21769e8730d7d4c7bae6d",
+  "generated": "2026-02-02T10:44:47.249Z",
   "metadata": [
     {
       "__outstatic": {
@@ -49,6 +49,23 @@
       "slug": "the-problem-with-bulgarian-people",
       "status": "published",
       "title": "The problem with Bulgarian people"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a63aaa12f468d2291b21769e8730d7d4c7bae6d",
+        "hash": "3322787791",
+        "path": "outstatic/content/imageposts/new-crochet-project.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "imageposts",
+      "image": "/images/img_6750-E3ND.jpeg",
+      "publishedAt": "2026-02-02T10:55:50.594Z",
+      "slug": "new-crochet-project",
+      "status": "published",
+      "title": "New Crochet Project!"
     }
   ]
 }
