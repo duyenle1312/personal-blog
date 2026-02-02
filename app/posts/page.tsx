@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Posts() {
   const posts = await getData();
-  console.log("posts", posts);
+  // console.log("posts", posts);
 
   const postsWithContent = await Promise.all(
     posts.map(async (post) => ({
