@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   outputFileTracingIncludes: {
     '/posts/[slug]': ['./outstatic/**/*'],
-    '/gallery': ['./outstatic/**/*'],
+    '/gallery': ['./outstatic/content/imageposts/*'],
   },
 
     images: {
