@@ -2,6 +2,7 @@ import { getDocuments, getSingletonBySlug } from "outstatic/server";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { Metadata } from "next";
 import DateFormatter from "@/components/DateFormatter";
+import { Button } from "@/components/ui/button";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -16,7 +17,7 @@ export default async function Home() {
   return (
     <>
       <div className="max-w-6xl mx-auto px-5">
-        <section className="mt-16 mb-16 md:mb-12">
+        <section className="mt-16 mb-12">
           <div
             className="prose lg:prose-2xl home-intro"
             dangerouslySetInnerHTML={{ __html: content }}
@@ -36,6 +37,16 @@ export default async function Home() {
               <p>{post.content?.substring(0, 250)}...</p>
             </a>
           ))}
+
+        <h1 className="bg-blue-100 py-1 px-3 rounded-2xl fixed bottom-0 mb-8 text-center text-sm font-semibold text-slate-600">
+          Welcome to Duyen&apos;s Rants and Memories!
+        </h1>
+
+        <a href="/gallery" className="w-full md:justify-end md:items-end flex">
+          <Button variant="outline" className="cursor-pointer mt-12">
+            Gallery
+          </Button>
+        </a>
       </div>
     </>
   );

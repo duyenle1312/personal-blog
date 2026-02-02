@@ -1,6 +1,16 @@
 import DateFormatter from "@/components/DateFormatter";
+import { Button } from "@/components/ui/button";
 import markdownToHtml from "@/lib/markdownToHtml";
+import { Metadata } from "next";
+import Link from "next/link";
 import { getDocuments } from "outstatic/server";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Duyen Le | Micro Blog",
+    description: "Welcome to my personal blog",
+  };
+}
 
 export default async function Posts() {
   const posts = await getData();
@@ -29,6 +39,11 @@ export default async function Posts() {
           />
         </a>
       ))}
+      <Link href="/" className="w-full md:justify-end md:items-end flex">
+        <Button variant="outline" className="cursor-pointer mt-12">
+          Home
+        </Button>
+      </Link>
     </div>
   );
 }

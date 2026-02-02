@@ -2,7 +2,22 @@ import DateFormatter from "@/components/DateFormatter";
 import { Button } from "@/components/ui/button";
 import markdownToHtml from "@/lib/markdownToHtml";
 import matter from "gray-matter";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = await getData(slug);
+  
+  return {
+    title: `${post.title} - Duyen Le`,
+    description: post.content?.substring(0, 150) || "Welcome to my personal blog",
+  };
+}
 
 const GITHUB_RAW_BASE =
   "https://raw.githubusercontent.com/duyenle1312/personal-blog/master/outstatic/content/posts";
@@ -28,7 +43,7 @@ export default async function Post({
           {post.title}
         </h1>
 
-        <div className="hidden md:block md:mb-12 text-slate-600">
+        <div className="md:mb-12 text-slate-600">
           Written on <DateFormatter dateString={post.publishedAt || ""} /> by{" "}
           {post.author?.name || ""}.
         </div>
@@ -48,8 +63,6 @@ export default async function Post({
 
 async function getData(slug: string) {
   const url = `${GITHUB_RAW_BASE}/${slug}.mdx`;
-
-  // console.log("Fetching post from URL:", url);
 
   const res = await fetch(url, {
     // required for static generation
@@ -75,71 +88,3 @@ async function getData(slug: string) {
     content: htmlContent,
   };
 }
-
-// import DateFormatter from "@/components/DateFormatter";
-// import markdownToHtml from "@/lib/markdownToHtml";
-// import { getDocumentBySlug } from "outstatic/server";
-
-// export const dynamic = "force-static";
-
-// export default async function Post({
-//   params,
-// }: {
-//   params: { slug: string };
-// }) {
-//   const { slug } = params;
-
-//   const post = await getData(slug);
-//   console.log("post", post);
-
-//   return (
-//     <>
-//       <div className="max-w-6xl mx-auto px-5 py-12">
-//         <article className="mb-32">
-//           {/* <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
-//             {<Image
-//               alt={post.title}
-//               src={post?.coverImage || ''}
-//               fill
-//               className="object-cover object-center"
-//               priority
-//             />}
-//           </div>*/}
-
-//           <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
-//             {post.title}
-//           </h1>
-//           <div className="hidden md:block md:mb-12 text-slate-600">
-//             Written on <DateFormatter dateString={post?.publishedAt || ""} /> by{" "}
-//             {post?.author?.name || ""}.
-//           </div>
-//           <hr className="border-neutral-200 mt-10 mb-10" />
-//           <div className="max-w-2xl mx-auto">
-//             <div
-//               className="prose lg:prose-xl"
-//               dangerouslySetInnerHTML={{ __html: post.content }}
-//             />
-//           </div>
-//         </article>
-//       </div>
-//     </>
-//   );
-// }
-
-// async function getData(slug: string) {
-//   const post = getDocumentBySlug("posts", slug, [
-//     "title",
-//     "publishedAt",
-//     "slug",
-//     "author",
-//     "content",
-//     // "coverImage",
-//   ]);
-
-//   const content = await markdownToHtml(post?.content || "");
-
-//   return {
-//     ...post,
-//     content,
-//   };
-// }
