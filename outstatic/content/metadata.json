@@ -1,6 +1,6 @@
 {
-  "commit": "b893b55d732621d8167863a776f41d9fe9ed90c5",
-  "generated": "2026-02-02T09:11:37.995Z",
+  "commit": "116948529412e1d3ef18bee3bafca07b76c8c7e2",
+  "generated": "2026-02-02T09:23:55.322Z",
   "metadata": [
     {
       "__outstatic": {
@@ -36,9 +36,9 @@
     },
     {
       "__outstatic": {
-        "commit": "b893b55d732621d8167863a776f41d9fe9ed90c5",
-        "hash": "3742794623",
-        "path": "outstatic/content/posts/hi-new-post.mdx"
+        "commit": "116948529412e1d3ef18bee3bafca07b76c8c7e2",
+        "hash": "223230649",
+        "path": "outstatic/content/posts/the-problem-with-bulgarian-people.mdx"
       },
       "author": {
         "name": "Duyen Le",
@@ -46,7 +46,7 @@
       },
       "collection": "posts",
       "publishedAt": "2026-01-31T21:26:29.619Z",
-      "slug": "hi-new-post",
+      "slug": "the-problem-with-bulgarian-people",
       "status": "published",
       "title": "The problem with Bulgarian people"
     }
