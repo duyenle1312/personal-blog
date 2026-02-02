@@ -1,6 +1,12 @@
 {
-  "title": "ImagePosts",
-  "slug": "imageposts",
+  "title": "imageposts",
   "type": "object",
-  "properties": {}
+  "properties": {
+    "image": {
+      "required": true,
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "image"
+    }
+  }
 }
