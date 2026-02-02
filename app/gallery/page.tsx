@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 import Link from "next/link";
 import { getDocuments } from "outstatic/server";
+import Image from "next/image";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -13,47 +14,92 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Posts() {
   const posts = await getData();
-  // console.log("posts", posts);
-
-  // const postsWithContent = await Promise.all(
-  //   posts.map(async (post) => ({
-  //     ...post,
-  //     content: await markdownToHtml(post?.content || ""),
-  //   })),
-  // );
 
   return (
-    <div className="flex flex-col md:p-12 px-5 py-12">
-      <h1 className="mb-8 text-4xl font-bold">All Posts</h1>
-      {posts.map((post) => (
-        <a key={post.slug} className="mb-5 block" href={`/posts/${post.slug}`}>
-          <h3>{post.title}</h3>
-          <div className="mb-2  text-slate-600">
-            <DateFormatter dateString={post.publishedAt || ""} />{" "}
-          </div>{" "}
-          <p>{String(post.image) || "No image available"}</p>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: post.content?.substring(0, 800) + "..." || "",
-            }}
-          />
-        </a>
-      ))}
-      <Link href="/" className="w-full md:justify-end md:items-end flex">
-        <Button variant="outline" className="cursor-pointer mt-12">
-          Home
-        </Button>
-      </Link>
-    </div>
+    <section className="py-8 sm:py-16 lg:py-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="mb-12 space-y-4 text-center sm:mb-16 lg:mb-24">
+          <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
+            <span className="relative z-1">
+              Explore
+              <span
+                className="bg-primary absolute bottom-1 left-0 -z-1 h-px w-full"
+                aria-hidden="true"
+              ></span>
+            </span>{" "}
+            Gallery
+          </h2>
+          <p className="text-muted-foreground text-xl">
+            This is where I store everyday memories and moments.{" "}
+          </p>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="md:grid md:grid-cols-2 gap-6 grid">
+            {posts.map((post, imageIndex) => (
+              <div key={imageIndex}>
+                <Image
+                  key={imageIndex}
+                  src={String(post.image) || ""}
+                  alt={post.title}
+                  width={500}
+                  height={500}
+                  className="rounded-lg object-cover"
+                />
+                <p className="mt-2 text-center text-base">{post.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <Link href="/" className="w-full md:justify-end md:items-end flex">
+          <Button variant="outline" className="cursor-pointer mt-12">
+            Home
+          </Button>
+        </Link>
+        {/* <Gallery sections={gallerySections} /> */}
+      </div>
+    </section>
   );
+
+  // return (
+  //   <div className="flex flex-col md:p-12 px-5 py-12">
+  //     <h1 className="mb-8 text-4xl font-bold">All Posts</h1>
+  //     {posts.map((post) => (
+  //       <a key={post.slug} className="mb-5 block" href={`/posts/${post.slug}`}>
+  //         <h3>{post.title}</h3>
+  //         <div className="mb-2  text-slate-600">
+  //           <DateFormatter dateString={post.publishedAt || ""} />{" "}
+  //         </div>{" "}
+  //         <p>{String(post.image) || "No image available"}</p>
+  //         <div
+  //           dangerouslySetInnerHTML={{
+  //             __html: post.content?.substring(0, 800) + "..." || "",
+  //           }}
+  //         />
+  //       </a>
+  //     ))}
+  //     <Link href="/" className="w-full md:justify-end md:items-end flex">
+  //       <Button variant="outline" className="cursor-pointer mt-12">
+  //         Home
+  //       </Button>
+  //     </Link>
+  //   </div>
+  // );
 }
 
 async function getData() {
-  const posts = getDocuments("imageposts", ["title", "content", "slug", "publishedAt", "image"]);
+  const posts = getDocuments("imageposts", [
+    "title",
+    "content",
+    "slug",
+    "publishedAt",
+    "image",
+  ]);
 
   return posts;
 }
-
 
 // // import Gallery from "@/components/Gallery";
 // import { Metadata } from "next";
