@@ -2,7 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  outputFileTracingIncludes: { '/posts/[slug]': ['./outstatic/**/*'], },
+  outputFileTracingIncludes: {
+    '/posts/[slug]': ['./outstatic/**/*'],
+    '/gallery': ['./outstatic/**/*'],
+  },
 
     images: {
     // unoptimized: true,

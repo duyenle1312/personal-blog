@@ -38,12 +38,12 @@ export default async function Home() {
             </a>
           ))}
 
-        <h1 className="bg-blue-100 py-1 px-3 rounded-2xl fixed bottom-0 mb-8 text-center text-sm font-semibold text-slate-600">
+        {/* <h1 className="bg-blue-100 py-1 px-3 rounded-2xl fixed bottom-0 mb-8 text-center text-sm font-semibold text-slate-600">
           Welcome to Duyen&apos;s Rants and Memories!
-        </h1>
+        </h1> */}
 
         <a href="/gallery" className="w-full md:justify-end md:items-end flex">
-          <Button variant="outline" className="cursor-pointer mt-12">
+          <Button variant="outline" className="cursor-pointer md:mt-12 mt-6">
             Gallery
           </Button>
         </a>

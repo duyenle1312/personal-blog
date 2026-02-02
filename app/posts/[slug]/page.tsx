@@ -39,7 +39,7 @@ export default async function Post({
       </Link>
 
       <article className="mb-32">
-        <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
+        <h1 className="font-primary text-3xl font-bold md:text-4xl mb-2">
           {post.title}
         </h1>
 
@@ -48,7 +48,7 @@ export default async function Post({
           {post.author?.name || ""}.
         </div>
 
-        <hr className="border-neutral-200 mt-10 mb-10" />
+        <hr className="border-neutral-200 md:my-10 my-5" />
 
         <div className="max-w-2xl mx-auto">
           <div

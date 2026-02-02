@@ -24,7 +24,7 @@ export default async function Posts() {
   );
 
   return (
-    <div className="flex flex-col p-12">
+    <div className="flex flex-col md:p-12 px-5 py-12">
       <h1 className="mb-8 text-4xl font-bold">All Posts</h1>
       {postsWithContent.map((post) => (
         <a key={post.slug} className="mb-5 block" href={`/posts/${post.slug}`}>
