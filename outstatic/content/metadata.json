@@ -1,6 +1,6 @@
 {
-  "commit": "7a63aaa12f468d2291b21769e8730d7d4c7bae6d",
-  "generated": "2026-02-02T10:44:47.249Z",
+  "commit": "df53c25af23e155b5b6fbf047895d42e0387f63d",
+  "generated": "2026-02-02T12:13:08.634Z",
   "metadata": [
     {
       "__outstatic": {
@@ -66,6 +66,23 @@
       "slug": "new-crochet-project",
       "status": "published",
       "title": "New Crochet Project!"
+    },
+    {
+      "__outstatic": {
+        "commit": "df53c25af23e155b5b6fbf047895d42e0387f63d",
+        "hash": "2568942796",
+        "path": "outstatic/content/imageposts/the-last-leva-banknotes-of-the-year-before-euro-adoption.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "imageposts",
+      "image": "/images/img_6406-YxND.jpeg",
+      "publishedAt": "2026-02-02T12:24:40.378Z",
+      "slug": "the-last-leva-banknotes-of-the-year-before-euro-adoption",
+      "status": "published",
+      "title": "The last leva banknotes of the year before Euro adoption!"
     }
   ]
 }
