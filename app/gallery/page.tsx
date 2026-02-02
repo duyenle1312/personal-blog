@@ -104,7 +104,7 @@ const GalleryPage = async () => {
               <div key={imageIndex}>
                 <Image
                   key={imageIndex}
-                  src={`/public/` + post.image}
+                  src={`` + post.image}
                   alt={post.title}
                   width={500}
                   height={500}
