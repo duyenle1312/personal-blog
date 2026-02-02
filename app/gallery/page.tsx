@@ -104,11 +104,7 @@ const GalleryPage = async () => {
               <div key={imageIndex}>
                 <Image
                   key={imageIndex}
-                  src={
-                    `https://raw.githubusercontent.com/${OWNER}/${REPO}/master/public` +
-                    "/" +
-                    post.image
-                  }
+                  src={`/public/` + post.image}
                   alt={post.title}
                   width={500}
                   height={500}
