@@ -1,6 +1,6 @@
 {
-  "commit": "7067d85d6499d4609e1ea9444613068702b11c97",
-  "generated": "2026-02-02T08:50:47.937Z",
+  "commit": "7a122d1c3ff59834cfeaa46b84711e1a967bbbff",
+  "generated": "2026-02-02T09:07:45.694Z",
   "metadata": [
     {
       "__outstatic": {
@@ -36,7 +36,7 @@
     },
     {
       "__outstatic": {
-        "commit": "7067d85d6499d4609e1ea9444613068702b11c97",
+        "commit": "7a122d1c3ff59834cfeaa46b84711e1a967bbbff",
         "hash": "2917285248",
         "path": "outstatic/content/posts/to-work-or-not-to-work.mdx"
       },
