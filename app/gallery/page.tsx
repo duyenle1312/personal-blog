@@ -141,7 +141,7 @@ const GalleryPage = async () => {
 
 async function getData() {
   const posts = getDocuments("imagePosts", ["title", "image", "slug"]);
-  // console.log("posts", posts);
+  console.log("posts", posts);
   return posts;
 }
 
