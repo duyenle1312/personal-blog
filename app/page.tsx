@@ -1,22 +1,16 @@
-// import Layout from '@/components/Layout'
-import { getSingletonBySlug, load } from "outstatic/server";
-import ContentGrid from "@/components/ContentGrid";
+import { getDocuments, getSingletonBySlug } from "outstatic/server";
 import markdownToHtml from "@/lib/markdownToHtml";
+import { Metadata } from "next";
+import DateFormatter from "@/components/DateFormatter";
 
-export async function generateMetadata() {
-  // const home = getSingletonBySlug('home', [
-  //   'title',
-  //   'content',
-  //   'description'
-  // ])
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Duyen Le - Micro Blog",
     description: "Welcome to my personal blog",
   };
 }
 
-export default async function Index() {
+export default async function Home() {
   const { content, allPosts } = await getData();
 
   return (
@@ -28,70 +22,39 @@ export default async function Index() {
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </section>
-        {allPosts.length > 0 && (
-          <ContentGrid
-            title="Posts"
-            items={allPosts}
-            collection="posts"
-            priority
-          />
-        )}
+        {allPosts.length > 0 &&
+          allPosts.map((post) => (
+            <a
+              key={post.slug}
+              className="mb-5 block"
+              href={`/posts/${post.slug}`}
+            >
+              <h3>{post.title}</h3>
+              <div className="mb-2  text-slate-600">
+                <DateFormatter dateString={post.publishedAt || ""} />{" "}
+              </div>{" "}
+              <p>{post.content?.substring(0, 250)}...</p>
+            </a>
+          ))}
       </div>
     </>
   );
 }
 
 async function getData() {
-  // const db = await load();
-
   const home = getSingletonBySlug("home", ["title", "content", "description"]);
 
   const content = await markdownToHtml(home?.content || "");
-  console.log("home", home);
-  console.log("content", content);
-  
-  const db = await load();
-  const allPosts = await db
-    .find({ collection: "posts" }, [
-      "title",
-      "publishedAt",
-      "slug",
-      // 'coverImage',
-      // 'description',
-      // 'tags'
-    ])
-    .sort({ publishedAt: -1 })
-    .toArray();
+
+  const allPosts = getDocuments("posts", [
+    "title",
+    "publishedAt",
+    "slug",
+    "content",
+  ]);
 
   return {
     content,
     allPosts,
   };
 }
-
-// import markdownToHtml from '@/lib/markdownToHtml'
-// import { getSingletonBySlug } from 'outstatic/server'
-
-// export default async function HomePage() {
-//   const home = await getData()
-//   return (
-//     <main>
-//       <h1 className='text-black'>{home?.title}</h1>
-//       <div dangerouslySetInnerHTML={{ __html: home?.content || '' }} />
-//     </main>
-//   )
-// }
-
-// async function getData() {
-//   const home = getSingletonBySlug('home', [
-//     'title',
-//     'content',
-//     'description'
-//   ])
-
-//   const content = await markdownToHtml(home?.content || '')
-
-//   console.log('home', home)
-
-//   return { ...home, content }
-// }

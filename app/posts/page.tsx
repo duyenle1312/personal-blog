@@ -1,10 +1,8 @@
-// Fetch ALL Documents from the posts collection
-// /app/posts/[slug]/page.tsx
-
+import DateFormatter from "@/components/DateFormatter";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { getDocuments } from "outstatic/server";
 
-export default async function Index() {
+export default async function Posts() {
   const posts = await getData();
   console.log("posts", posts);
 
@@ -16,14 +14,20 @@ export default async function Index() {
   );
 
   return (
-    <div className="flex justify-center items-center py-12">
+    <div className="flex flex-col p-12">
+      <h1 className="mb-8 text-4xl font-bold">All Posts</h1>
       {postsWithContent.map((post) => (
-        <div key={post.slug as string}>
-          <a href={`/posts/${post.slug}`}>
-            <h1 className="text-2xl">{post.title}</h1>
-          </a>
-          <div dangerouslySetInnerHTML={{ __html: post.content || "" }} />
-        </div>
+        <a key={post.slug} className="mb-5 block" href={`/posts/${post.slug}`}>
+          <h3>{post.title}</h3>
+          <div className="mb-2  text-slate-600">
+            <DateFormatter dateString={post.publishedAt || ""} />{" "}
+          </div>{" "}
+          <div
+            dangerouslySetInnerHTML={{
+              __html: post.content?.substring(0, 800) + "..." || "",
+            }}
+          />
+        </a>
       ))}
     </div>
   );

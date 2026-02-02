@@ -1,6 +1,8 @@
 import DateFormatter from "@/components/DateFormatter";
+import { Button } from "@/components/ui/button";
 import markdownToHtml from "@/lib/markdownToHtml";
 import matter from "gray-matter";
+import Link from "next/link";
 
 const GITHUB_RAW_BASE =
   "https://raw.githubusercontent.com/duyenle1312/personal-blog/master/outstatic/content/posts";
@@ -15,6 +17,12 @@ export default async function Post({
 
   return (
     <div className="max-w-6xl mx-auto px-5 py-12">
+      <Link href="/posts" className="w-full md:justify-end md:items-end flex">
+        <Button variant="outline" className="cursor-pointer mb-4">
+          Back to Posts
+        </Button>
+      </Link>
+
       <article className="mb-32">
         <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
           {post.title}
@@ -41,7 +49,7 @@ export default async function Post({
 async function getData(slug: string) {
   const url = `${GITHUB_RAW_BASE}/${slug}.mdx`;
 
-  console.log("Fetching post from URL:", url);
+  // console.log("Fetching post from URL:", url);
 
   const res = await fetch(url, {
     // required for static generation
