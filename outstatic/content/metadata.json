@@ -1,6 +1,6 @@
 {
-  "commit": "18bbcb2e8aaf31eb35ce706adfe3e1ed39fdcf3d",
-  "generated": "2026-02-02T09:08:22.457Z",
+  "commit": "b893b55d732621d8167863a776f41d9fe9ed90c5",
+  "generated": "2026-02-02T09:11:37.995Z",
   "metadata": [
     {
       "__outstatic": {
@@ -20,22 +20,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8834a8771a91cb0401a0effd61e397905985a4a4",
-        "hash": "2085947012",
-        "path": "outstatic/content/posts/hi-new-post.mdx"
-      },
-      "author": {
-        "name": "Duyen Le",
-        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
-      },
-      "collection": "posts",
-      "publishedAt": "2026-01-31T21:26:29.619Z",
-      "slug": "hi-new-post",
-      "status": "published",
-      "title": "The problem with Bulgarian people"
-    },
-    {
-      "__outstatic": {
         "commit": "18bbcb2e8aaf31eb35ce706adfe3e1ed39fdcf3d",
         "hash": "2917285248",
         "path": "outstatic/content/posts/to-work-or-not-to-work.mdx"
@@ -49,6 +33,22 @@
       "slug": "to-work-or-not-to-work",
       "status": "published",
       "title": "To work or not to work"
+    },
+    {
+      "__outstatic": {
+        "commit": "b893b55d732621d8167863a776f41d9fe9ed90c5",
+        "hash": "3742794623",
+        "path": "outstatic/content/posts/hi-new-post.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-01-31T21:26:29.619Z",
+      "slug": "hi-new-post",
+      "status": "published",
+      "title": "The problem with Bulgarian people"
     }
   ]
 }
