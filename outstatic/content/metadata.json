@@ -1,6 +1,6 @@
 {
-  "commit": "7a122d1c3ff59834cfeaa46b84711e1a967bbbff",
-  "generated": "2026-02-02T09:07:45.694Z",
+  "commit": "329ea14432d178427d460ca6aa9590aa42250fbc",
+  "generated": "2026-02-02T09:08:14.725Z",
   "metadata": [
     {
       "__outstatic": {
@@ -36,8 +36,8 @@
     },
     {
       "__outstatic": {
-        "commit": "7a122d1c3ff59834cfeaa46b84711e1a967bbbff",
-        "hash": "2917285248",
+        "commit": "329ea14432d178427d460ca6aa9590aa42250fbc",
+        "hash": "1732317197",
         "path": "outstatic/content/posts/to-work-or-not-to-work.mdx"
       },
       "author": {
@@ -47,7 +47,7 @@
       "collection": "posts",
       "publishedAt": "2026-02-01T23:34:29.357Z",
       "slug": "to-work-or-not-to-work",
-      "status": "published",
+      "status": "draft",
       "title": "To work or not to work"
     }
   ]
