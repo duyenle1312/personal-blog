@@ -1,6 +1,6 @@
 {
-  "commit": "e375f5c2b0bf44dac0330e313ddba62b8774d6c6",
-  "generated": "2026-02-01T23:23:00.120Z",
+  "commit": "7067d85d6499d4609e1ea9444613068702b11c97",
+  "generated": "2026-02-02T08:50:47.937Z",
   "metadata": [
     {
       "__outstatic": {
@@ -36,9 +36,9 @@
     },
     {
       "__outstatic": {
-        "commit": "e375f5c2b0bf44dac0330e313ddba62b8774d6c6",
-        "hash": "325036278",
-        "path": "outstatic/content/posts/hi.mdx"
+        "commit": "7067d85d6499d4609e1ea9444613068702b11c97",
+        "hash": "2917285248",
+        "path": "outstatic/content/posts/to-work-or-not-to-work.mdx"
       },
       "author": {
         "name": "Duyen Le",
@@ -46,8 +46,8 @@
       },
       "collection": "posts",
       "publishedAt": "2026-02-01T23:34:29.357Z",
-      "slug": "hi",
-      "status": "draft",
+      "slug": "to-work-or-not-to-work",
+      "status": "published",
       "title": "To work or not to work"
     }
   ]
