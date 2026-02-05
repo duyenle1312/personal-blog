@@ -1,6 +1,6 @@
 {
-  "commit": "df53c25af23e155b5b6fbf047895d42e0387f63d",
-  "generated": "2026-02-02T12:13:08.634Z",
+  "commit": "e086d2f3d3b1d7c1a78bd5f1ef46986e7e08348b",
+  "generated": "2026-02-05T21:17:39.916Z",
   "metadata": [
     {
       "__outstatic": {
@@ -83,6 +83,22 @@
       "slug": "the-last-leva-banknotes-of-the-year-before-euro-adoption",
       "status": "published",
       "title": "The last leva banknotes of the year before Euro adoption!"
+    },
+    {
+      "__outstatic": {
+        "commit": "e086d2f3d3b1d7c1a78bd5f1ef46986e7e08348b",
+        "hash": "2273757392",
+        "path": "outstatic/content/posts/what-is-happening-in-the-world-right-now.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": ""
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-05T21:17:57.477Z",
+      "slug": "what-is-happening-in-the-world-right-now",
+      "status": "published",
+      "title": "what is happening?"
     }
   ]
 }
