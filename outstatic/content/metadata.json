@@ -1,6 +1,6 @@
 {
-  "commit": "e086d2f3d3b1d7c1a78bd5f1ef46986e7e08348b",
-  "generated": "2026-02-05T21:17:39.916Z",
+  "commit": "550df4431fe0b3ae68af4945fd824352d363bfb6",
+  "generated": "2026-02-05T21:21:25.555Z",
   "metadata": [
     {
       "__outstatic": {
@@ -86,8 +86,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e086d2f3d3b1d7c1a78bd5f1ef46986e7e08348b",
-        "hash": "2273757392",
+        "commit": "550df4431fe0b3ae68af4945fd824352d363bfb6",
+        "hash": "4177705617",
         "path": "outstatic/content/posts/what-is-happening-in-the-world-right-now.mdx"
       },
       "author": {
