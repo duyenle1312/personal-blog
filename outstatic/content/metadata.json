@@ -1,6 +1,6 @@
 {
-  "commit": "c95503ac3ebbc6d5d241ca19da9392d68c00e663",
-  "generated": "2026-02-06T17:19:07.552Z",
+  "commit": "b4eadae1e976d922141acb314cc939d3725c71a7",
+  "generated": "2026-02-06T17:25:31.348Z",
   "metadata": [
     {
       "__outstatic": {
@@ -102,8 +102,8 @@
     },
     {
       "__outstatic": {
-        "commit": "c95503ac3ebbc6d5d241ca19da9392d68c00e663",
-        "hash": "928613001",
+        "commit": "b4eadae1e976d922141acb314cc939d3725c71a7",
+        "hash": "1358716001",
         "path": "outstatic/content/posts/sexism-in-the-tech-industry.mdx"
       },
       "author": {
