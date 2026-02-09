@@ -1,6 +1,6 @@
 {
-  "commit": "2518ed38f91af38100c50721609ae286318aa18b",
-  "generated": "2026-02-09T19:30:13.534Z",
+  "commit": "6fafa44c960ea2a1485f53690ba8f612d8fdb51a",
+  "generated": "2026-02-09T19:30:55.110Z",
   "metadata": [
     {
       "__outstatic": {
@@ -118,8 +118,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2518ed38f91af38100c50721609ae286318aa18b",
-        "hash": "913283002",
+        "commit": "6fafa44c960ea2a1485f53690ba8f612d8fdb51a",
+        "hash": "240828290",
         "path": "outstatic/content/posts/what-if-the-dot-com-bubble-was-artificially-orchestrated.mdx"
       },
       "author": {
