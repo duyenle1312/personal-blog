@@ -1,6 +1,6 @@
 {
-  "commit": "6f8749e174670a3e3bd0be3289ce0ca74028584c",
-  "generated": "2026-02-09T19:32:57.890Z",
+  "commit": "166097aafc558275c6ba56bfd4880a4e42ea4c9a",
+  "generated": "2026-02-09T23:29:55.549Z",
   "metadata": [
     {
       "__outstatic": {
@@ -131,6 +131,22 @@
       "slug": "what-if-the-dot-com-bubble-was-artificially-orchestrated",
       "status": "published",
       "title": "What if the dot-com bubble was artificially orchestrated?"
+    },
+    {
+      "__outstatic": {
+        "commit": "166097aafc558275c6ba56bfd4880a4e42ea4c9a",
+        "hash": "570938283",
+        "path": "outstatic/content/posts/ai-is-everywhere.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-09T23:36:56.135Z",
+      "slug": "ai-is-everywhere",
+      "status": "published",
+      "title": "AI is everywhere?"
     }
   ]
 }
