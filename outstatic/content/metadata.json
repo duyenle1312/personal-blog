@@ -1,6 +1,6 @@
 {
-  "commit": "9c282f1438214e7ba97c4ef05858fab474b82e0e",
-  "generated": "2026-02-09T19:30:08.208Z",
+  "commit": "2518ed38f91af38100c50721609ae286318aa18b",
+  "generated": "2026-02-09T19:30:13.534Z",
   "metadata": [
     {
       "__outstatic": {
@@ -118,8 +118,8 @@
     },
     {
       "__outstatic": {
-        "commit": "9c282f1438214e7ba97c4ef05858fab474b82e0e",
-        "hash": "2960185",
+        "commit": "2518ed38f91af38100c50721609ae286318aa18b",
+        "hash": "913283002",
         "path": "outstatic/content/posts/what-if-the-dot-com-bubble-was-artificially-orchestrated.mdx"
       },
       "author": {
@@ -129,7 +129,7 @@
       "collection": "posts",
       "publishedAt": "2026-02-09T19:38:41.235Z",
       "slug": "what-if-the-dot-com-bubble-was-artificially-orchestrated",
-      "status": "draft",
+      "status": "published",
       "title": "What if the dot-com bubble was artificially orchestrated?"
     }
   ]
