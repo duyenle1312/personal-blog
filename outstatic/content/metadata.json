@@ -1,6 +1,6 @@
 {
-  "commit": "b4eadae1e976d922141acb314cc939d3725c71a7",
-  "generated": "2026-02-06T17:25:31.348Z",
+  "commit": "9c282f1438214e7ba97c4ef05858fab474b82e0e",
+  "generated": "2026-02-09T19:30:08.208Z",
   "metadata": [
     {
       "__outstatic": {
@@ -115,6 +115,22 @@
       "slug": "sexism-in-the-tech-industry",
       "status": "published",
       "title": "Sexism in the Tech Industry"
+    },
+    {
+      "__outstatic": {
+        "commit": "9c282f1438214e7ba97c4ef05858fab474b82e0e",
+        "hash": "2960185",
+        "path": "outstatic/content/posts/what-if-the-dot-com-bubble-was-artificially-orchestrated.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-09T19:38:41.235Z",
+      "slug": "what-if-the-dot-com-bubble-was-artificially-orchestrated",
+      "status": "draft",
+      "title": "What if the dot-com bubble was artificially orchestrated?"
     }
   ]
 }
