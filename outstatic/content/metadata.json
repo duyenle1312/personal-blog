@@ -1,6 +1,6 @@
 {
-  "commit": "4a1e52d0219ff1f4b0a2a19ea9da1119103a6cf9",
-  "generated": "2026-02-09T23:31:39.780Z",
+  "commit": "139c8926aab2bb740b559452eec3cb3b017efcf2",
+  "generated": "2026-02-11T20:58:07.525Z",
   "metadata": [
     {
       "__outstatic": {
@@ -147,6 +147,22 @@
       "slug": "ai-is-everywhere",
       "status": "published",
       "title": "AI is everywhere?"
+    },
+    {
+      "__outstatic": {
+        "commit": "139c8926aab2bb740b559452eec3cb3b017efcf2",
+        "hash": "90625609",
+        "path": "outstatic/content/posts/this-time-it-feels-weird.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-11T20:49:30.433Z",
+      "slug": "this-time-it-feels-weird",
+      "status": "published",
+      "title": "This time it feels weird… or eerie…"
     }
   ]
 }
