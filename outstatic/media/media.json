@@ -1,7 +1,18 @@
 {
-  "commit": "89d0e2ad7534f51894df5d8ff1d9dd65a04c7c86",
-  "generated": "2026-02-02T09:36:59.112Z",
+  "commit": "ec95ff62602650aac2bc69d59bb59b913d507383",
+  "generated": "2026-02-12T06:43:05.507Z",
   "media": [
+    {
+      "__outstatic": {
+        "commit": "ec95ff62602650aac2bc69d59bb59b913d507383",
+        "hash": "3450134009",
+        "path": "public/images/image-A5OT.png"
+      },
+      "alt": "",
+      "filename": "image-A5OT.png",
+      "publishedAt": "2026-02-12T06:43:05.505Z",
+      "type": "image"
+    },
     {
       "__outstatic": {
         "commit": "",
