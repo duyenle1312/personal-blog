@@ -1,6 +1,6 @@
 {
-  "commit": "95bb2f088c98fb1d263b0ad8b5514be4a649aca4",
-  "generated": "2026-02-14T07:04:37.920Z",
+  "commit": "c0db5df16c92e74a16c291149e114ecbf6e00053",
+  "generated": "2026-02-15T14:04:22.318Z",
   "metadata": [
     {
       "__outstatic": {
@@ -179,6 +179,22 @@
       "slug": "pam-bondi-a-criminal-in-disguise-of-an-attorney-general",
       "status": "published",
       "title": "Pam Bondi - A Criminal in disguise of an Attorney General "
+    },
+    {
+      "__outstatic": {
+        "commit": "c0db5df16c92e74a16c291149e114ecbf6e00053",
+        "hash": "3706178966",
+        "path": "outstatic/content/posts/what-i-love-about-my-life.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-15T14:15:23.192Z",
+      "slug": "what-i-love-about-my-life",
+      "status": "draft",
+      "title": "What I love about my life"
     }
   ]
 }
