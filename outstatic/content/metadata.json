@@ -1,6 +1,6 @@
 {
-  "commit": "c0db5df16c92e74a16c291149e114ecbf6e00053",
-  "generated": "2026-02-15T14:04:22.318Z",
+  "commit": "ae1c6e7457a18b2f2b055c3db75e50053b591641",
+  "generated": "2026-02-16T22:49:20.724Z",
   "metadata": [
     {
       "__outstatic": {
@@ -195,6 +195,22 @@
       "slug": "what-i-love-about-my-life",
       "status": "draft",
       "title": "What I love about my life"
+    },
+    {
+      "__outstatic": {
+        "commit": "ae1c6e7457a18b2f2b055c3db75e50053b591641",
+        "hash": "1509194728",
+        "path": "outstatic/content/posts/why-do-we-lie.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-16T22:59:46.818Z",
+      "slug": "why-do-we-lie",
+      "status": "published",
+      "title": "Why do we lie?"
     }
   ]
 }
