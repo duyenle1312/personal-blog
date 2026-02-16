@@ -1,6 +1,6 @@
 {
-  "commit": "ae1c6e7457a18b2f2b055c3db75e50053b591641",
-  "generated": "2026-02-16T22:49:20.724Z",
+  "commit": "c07a28fd97894cfbebd7398dbb7eb8125f340bec",
+  "generated": "2026-02-16T22:49:50.786Z",
   "metadata": [
     {
       "__outstatic": {
@@ -198,8 +198,8 @@
     },
     {
       "__outstatic": {
-        "commit": "ae1c6e7457a18b2f2b055c3db75e50053b591641",
-        "hash": "1509194728",
+        "commit": "c07a28fd97894cfbebd7398dbb7eb8125f340bec",
+        "hash": "1228394164",
         "path": "outstatic/content/posts/why-do-we-lie.mdx"
       },
       "author": {
