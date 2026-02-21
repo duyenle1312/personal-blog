@@ -1,6 +1,6 @@
 {
-  "commit": "436f4eeac99ab5a42d1050eb6ae6572c1f4097b0",
-  "generated": "2026-02-16T22:57:11.634Z",
+  "commit": "c12acc4183523b27eab4ae5aa696608a00e8ae2e",
+  "generated": "2026-02-21T07:19:12.969Z",
   "metadata": [
     {
       "__outstatic": {
@@ -211,6 +211,22 @@
       "slug": "why-do-we-lie",
       "status": "published",
       "title": "Why do we lie?"
+    },
+    {
+      "__outstatic": {
+        "commit": "c12acc4183523b27eab4ae5aa696608a00e8ae2e",
+        "hash": "1107025783",
+        "path": "outstatic/content/posts/men-these-days.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-02-21T07:26:17.380Z",
+      "slug": "men-these-days",
+      "status": "published",
+      "title": "Men these day…"
     }
   ]
 }
