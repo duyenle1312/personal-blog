@@ -1,6 +1,6 @@
 {
-  "commit": "be78ea06fceb001ff1901ab8f9dc955d8cd038d6",
-  "generated": "2026-02-21T07:19:23.654Z",
+  "commit": "34eeedb563e8bd52d68102d7e7fec3fb648e869b",
+  "generated": "2026-02-21T07:20:29.265Z",
   "metadata": [
     {
       "__outstatic": {
@@ -214,8 +214,8 @@
     },
     {
       "__outstatic": {
-        "commit": "be78ea06fceb001ff1901ab8f9dc955d8cd038d6",
-        "hash": "842363875",
+        "commit": "34eeedb563e8bd52d68102d7e7fec3fb648e869b",
+        "hash": "1132980815",
         "path": "outstatic/content/posts/men-these-days.mdx"
       },
       "author": {
