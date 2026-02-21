@@ -1,6 +1,6 @@
 {
-  "commit": "c12acc4183523b27eab4ae5aa696608a00e8ae2e",
-  "generated": "2026-02-21T07:19:12.969Z",
+  "commit": "be78ea06fceb001ff1901ab8f9dc955d8cd038d6",
+  "generated": "2026-02-21T07:19:23.654Z",
   "metadata": [
     {
       "__outstatic": {
@@ -214,8 +214,8 @@
     },
     {
       "__outstatic": {
-        "commit": "c12acc4183523b27eab4ae5aa696608a00e8ae2e",
-        "hash": "1107025783",
+        "commit": "be78ea06fceb001ff1901ab8f9dc955d8cd038d6",
+        "hash": "842363875",
         "path": "outstatic/content/posts/men-these-days.mdx"
       },
       "author": {
@@ -226,7 +226,7 @@
       "publishedAt": "2026-02-21T07:26:17.380Z",
       "slug": "men-these-days",
       "status": "published",
-      "title": "Men these day…"
+      "title": "Men these days…"
     }
   ]
 }
