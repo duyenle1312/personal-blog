@@ -1,6 +1,6 @@
 {
-  "commit": "34eeedb563e8bd52d68102d7e7fec3fb648e869b",
-  "generated": "2026-02-21T07:20:29.265Z",
+  "commit": "d7b735898e051d0f0a634005232ef62bc7a1ad07",
+  "generated": "2026-04-22T06:26:55.673Z",
   "metadata": [
     {
       "__outstatic": {
@@ -227,6 +227,22 @@
       "slug": "men-these-days",
       "status": "published",
       "title": "Men these days…"
+    },
+    {
+      "__outstatic": {
+        "commit": "d7b735898e051d0f0a634005232ef62bc7a1ad07",
+        "hash": "1351832534",
+        "path": "outstatic/content/posts/say-no-to-christians.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-04-22T06:41:07.272Z",
+      "slug": "say-no-to-christians",
+      "status": "published",
+      "title": "Say no to Christians"
     }
   ]
 }
