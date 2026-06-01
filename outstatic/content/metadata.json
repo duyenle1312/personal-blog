@@ -1,6 +1,6 @@
 {
-  "commit": "916305737e547fded3ce5939100363a055864964",
-  "generated": "2026-06-01T02:07:29.265Z",
+  "commit": "fbde813ba7d8143e0e412fec45f2c27854d1cadc",
+  "generated": "2026-06-01T02:07:59.980Z",
   "metadata": [
     {
       "__outstatic": {
@@ -246,8 +246,8 @@
     },
     {
       "__outstatic": {
-        "commit": "916305737e547fded3ce5939100363a055864964",
-        "hash": "3038454201",
+        "commit": "fbde813ba7d8143e0e412fec45f2c27854d1cadc",
+        "hash": "3131929462",
         "path": "outstatic/content/posts/scared-of-men.mdx"
       },
       "author": {
@@ -257,7 +257,7 @@
       "collection": "posts",
       "publishedAt": "2026-06-01T02:19:40.129Z",
       "slug": "scared-of-men",
-      "status": "draft",
+      "status": "published",
       "title": "Scared of men"
     }
   ]
