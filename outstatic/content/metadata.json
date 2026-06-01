@@ -1,6 +1,6 @@
 {
-  "commit": "fbde813ba7d8143e0e412fec45f2c27854d1cadc",
-  "generated": "2026-06-01T02:07:59.980Z",
+  "commit": "b2d0f322aaded6edaab17359955f7a5f8445ba40",
+  "generated": "2026-06-01T02:08:53.125Z",
   "metadata": [
     {
       "__outstatic": {
@@ -246,7 +246,7 @@
     },
     {
       "__outstatic": {
-        "commit": "fbde813ba7d8143e0e412fec45f2c27854d1cadc",
+        "commit": "b2d0f322aaded6edaab17359955f7a5f8445ba40",
         "hash": "3131929462",
         "path": "outstatic/content/posts/scared-of-men.mdx"
       },
