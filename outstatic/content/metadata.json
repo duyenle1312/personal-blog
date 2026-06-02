@@ -1,6 +1,6 @@
 {
-  "commit": "da0658f9cd7497035ac8b14cc7102df276759274",
-  "generated": "2026-06-02T12:20:37.511Z",
+  "commit": "77abd37adb0c7519a60537c57faa400746ce54aa",
+  "generated": "2026-06-02T12:25:10.516Z",
   "metadata": [
     {
       "__outstatic": {
@@ -313,8 +313,8 @@
     },
     {
       "__outstatic": {
-        "commit": "da0658f9cd7497035ac8b14cc7102df276759274",
-        "hash": "2289090501",
+        "commit": "77abd37adb0c7519a60537c57faa400746ce54aa",
+        "hash": "1677743482",
         "path": "outstatic/content/imageposts/my-little-succulent-and-tomato-seedling.mdx"
       },
       "author": {
@@ -325,7 +325,7 @@
       "image": "/images/img_8476-M0Nz.jpeg",
       "publishedAt": "2026-06-02T12:38:08.545Z",
       "slug": "my-little-succulent-and-tomato-seedling",
-      "status": "published",
+      "status": "draft",
       "title": "My little succulent and tomato seedling 🥰"
     }
   ]
