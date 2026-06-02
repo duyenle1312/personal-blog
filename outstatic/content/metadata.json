@@ -1,6 +1,6 @@
 {
-  "commit": "77abd37adb0c7519a60537c57faa400746ce54aa",
-  "generated": "2026-06-02T12:25:10.516Z",
+  "commit": "6390cfd83306bab2b21fdd9cfc598aae576bc05d",
+  "generated": "2026-06-02T22:42:06.510Z",
   "metadata": [
     {
       "__outstatic": {
@@ -327,6 +327,22 @@
       "slug": "my-little-succulent-and-tomato-seedling",
       "status": "draft",
       "title": "My little succulent and tomato seedling 🥰"
+    },
+    {
+      "__outstatic": {
+        "commit": "6390cfd83306bab2b21fdd9cfc598aae576bc05d",
+        "hash": "3306830176",
+        "path": "outstatic/content/posts/if-i-could-go-back-in-time-this-is-what-i-would-tell-him.mdx"
+      },
+      "author": {
+        "name": "Duyen Le",
+        "picture": "https://avatars.githubusercontent.com/u/81138129?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2026-06-02T22:58:01.390Z",
+      "slug": "if-i-could-go-back-in-time-this-is-what-i-would-tell-him",
+      "status": "published",
+      "title": "If I could go back in time, this is what I would tell him."
     }
   ]
 }
