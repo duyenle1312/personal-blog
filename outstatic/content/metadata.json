@@ -1,6 +1,6 @@
 {
-  "commit": "6390cfd83306bab2b21fdd9cfc598aae576bc05d",
-  "generated": "2026-06-02T22:42:06.510Z",
+  "commit": "eb97e1387479096fb21d033b59b0c8ed9a39e8e0",
+  "generated": "2026-06-02T22:44:19.826Z",
   "metadata": [
     {
       "__outstatic": {
@@ -330,8 +330,8 @@
     },
     {
       "__outstatic": {
-        "commit": "6390cfd83306bab2b21fdd9cfc598aae576bc05d",
-        "hash": "3306830176",
+        "commit": "eb97e1387479096fb21d033b59b0c8ed9a39e8e0",
+        "hash": "433255097",
         "path": "outstatic/content/posts/if-i-could-go-back-in-time-this-is-what-i-would-tell-him.mdx"
       },
       "author": {
