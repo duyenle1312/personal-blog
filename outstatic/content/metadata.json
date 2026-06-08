@@ -1,6 +1,6 @@
 {
-  "commit": "1209a8e8115146139573bca2fafc714cf9d03475",
-  "generated": "2026-06-08T10:05:22.836Z",
+  "commit": "9a7f3e02f4a51b75009c33ca86d86798f317f8b1",
+  "generated": "2026-06-08T10:05:34.389Z",
   "metadata": [
     {
       "__outstatic": {
@@ -363,8 +363,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1209a8e8115146139573bca2fafc714cf9d03475",
-        "hash": "2567814367",
+        "commit": "9a7f3e02f4a51b75009c33ca86d86798f317f8b1",
+        "hash": "459643756",
         "path": "outstatic/content/imageposts/so-cute.mdx"
       },
       "author": {
@@ -375,7 +375,7 @@
       "image": "/images/img_8617-M5Nz.jpeg",
       "publishedAt": "2026-06-08T10:23:01.201Z",
       "slug": "so-cute",
-      "status": "draft",
+      "status": "published",
       "title": "🥰 so cute"
     }
   ]
