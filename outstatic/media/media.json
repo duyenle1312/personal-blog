@@ -1,6 +1,6 @@
 {
-  "commit": "0c19559d46fb47a11ed28973bc27f2b5fe4b4941",
-  "generated": "2026-06-08T10:02:28.040Z",
+  "commit": "4ef0774681ba018ff0665cdf4b472c3ebcbc38b7",
+  "generated": "2026-06-08T10:03:30.899Z",
   "media": [
     {
       "__outstatic": {
@@ -88,6 +88,17 @@
       "alt": "",
       "filename": "img_8575-A2Nj.jpeg",
       "publishedAt": "2026-06-08T10:02:28.040Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "4ef0774681ba018ff0665cdf4b472c3ebcbc38b7",
+        "hash": "579914490",
+        "path": "public/images/img_8617-M5Nz.jpeg"
+      },
+      "alt": "",
+      "filename": "img_8617-M5Nz.jpeg",
+      "publishedAt": "2026-06-08T10:03:30.899Z",
       "type": "image"
     }
   ]
